@@ -1,0 +1,51 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production build outputs
+dist/
+build/
+coverage/
+
+# Environment configurations & local secrets
+.env
+.env*.local
+.env.production
+.env.development
+!.env.example
+
+# Local runtime storage & test uploads (preserves directory structure)
+uploads/*
+!uploads/.gitkeep
+data/*
+!data/.gitkeep
+
+# Logs & debugging
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor & OS artifacts
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Vite & cache
+.vite/
+.turbo/
+
+# AI audit & scratch artifacts (keep internal dev notes off public repo)
+AUDIT_AND_FIXES.md
+metadata.json
+.gemini/
+.claude/
+scratch/
